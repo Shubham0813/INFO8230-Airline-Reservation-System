@@ -8,7 +8,7 @@ namespace FlightCompany.cs
 {
     class Payment
     {
-        public Currency Value { get; set; }
+        public double Value { get; set; }
         public DateTime Timestamp { get; set; }
         public string MethodName { get; set; }
 

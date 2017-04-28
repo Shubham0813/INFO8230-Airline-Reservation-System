@@ -11,6 +11,7 @@ namespace FlightCompany.cs
     {
         public Employee FactoryMethod(Dictionary<string,string> employeeData)
         {
+            throw new NotImplementedException();
             // creates and returns specific type of employee
         }
     }
