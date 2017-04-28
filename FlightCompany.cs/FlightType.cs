@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace FlightCompany.cs
 {
+    /// <summary>
+    /// Represents the types of flight (i.e. Express, Overnight, International)
+    /// </summary>
     class FlightType
     {
+        /// <summary>
+        /// Represents the name of the type.
+        /// </summary>
         public string Name { get; set; }
     }
 }
