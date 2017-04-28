@@ -35,24 +35,27 @@ namespace FlightCompany.cs
         /// <param name="flight">Which flight this reservation is related.</param>
         /// <param name="customer">The customer who owns the reservation.</param>
         /// <param name="passengers">The passengers who will have seats reserved for.</param>
-        public void CreateReservation(Flight flight, Customer customer, List<Passenger> passengers)
+        /// <returns>Returns a new Reservation instance.</returns>
+        public Reservation CreateReservation(Flight flight, Customer customer, List<Passenger> passengers)
         {
-            
+            throw new NotImplementedException();
         }
 
         /// <summary>
-        /// Add a new passenger to the reservation.
+        /// Creates a new passenger to be added to the reservation.
         /// </summary>
-        /// <param name="passenger"></param>
-        public void AddPassenger(Passenger passenger)
+        /// <see cref="Passenger">See Passenger, which details all the input params.</see>
+        /// <returns>Returns a new Passenger instance.</returns> 
+        public Passenger CreatePassenger(string id, string firstName, string lastName, string passport, string address, DateTime birthdate, 
+            string phone)
         {
-            
+            throw new NotImplementedException();
         }
 
         /// <summary>
         /// Persist and save all objects created and updated by this reservation.
         /// </summary>
-        public void FinishRservation()
+        public void FinishReservation()
         {
             
         }
