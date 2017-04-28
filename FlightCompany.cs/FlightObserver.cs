@@ -17,7 +17,7 @@ namespace FlightCompany.cs
         /// Implementation for this method will be provided by classes implementing this interface.
         /// It will define the appropriate instructions to be performed when any change to flight it was observing take place.
         /// </summary>
-        /// <param name="flight"></param>
+        /// <param name="flight">Flight</param>
         void Update(Flight flight);
     }
 }

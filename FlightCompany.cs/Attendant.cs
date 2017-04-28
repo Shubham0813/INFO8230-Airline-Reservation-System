@@ -12,7 +12,7 @@ namespace FlightCompany.cs
     class Attendant : Employee
     {
         /// <summary>
-        /// The land position for conveience
+        /// The land position for attendant
         /// </summary>
         public string LandPosition { get; set; }
     }

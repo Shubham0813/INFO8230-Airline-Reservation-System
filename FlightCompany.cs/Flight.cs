@@ -20,22 +20,27 @@ namespace FlightCompany.cs
         /// Number of the flight.
         /// </summary>
         public string Number { get; set; }
+        
         /// <summary>
         /// Date and time of flight's departure from the origin.
         /// </summary>
         public DateTime Departure { get; set; }
+        
         /// <summary>
         /// Date and time of flight's arrival at the destination.
         /// </summary>
         public DateTime Arrival { get; set; }
+
         /// <summary>
         /// Types of the flight (i.e. Overnight, Express, Internation, National)
         /// </summary>
         public List<FlightType> FlightTypes { get; set; }
+        
         /// <summary>
         /// The plane conducting this flight.
         /// </summary>
         public Plane plane { get; set; }
+        
         /// <summary>
         /// The path that the flight comprehends, from origin to destination.
         /// </summary>
