@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlightCompany.cs</name>
+    </assembly>
+    <members>
+        <member name="T:FlightCompany.cs.User">
+            <summary>
+            Abstract User class that saves common information for different types of users.
+            </summary>
+        </member>
+    </members>
+</doc>

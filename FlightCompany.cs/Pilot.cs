@@ -8,7 +8,7 @@ namespace FlightCompany.cs
 {
     class Pilot : Employee
     {
-        public string PilotLicens { get; set; }
+        public string PilotLicense { get; set; }
         public int HoursOfFlight  { get; set; }
     }
 }

@@ -8,5 +8,7 @@ namespace FlightCompany.cs
 {
     class Seat
     {
+        public string Number { get; set; }
+        public int Place { get; set; }
     }
 }
