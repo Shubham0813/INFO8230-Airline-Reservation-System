@@ -22,6 +22,8 @@ namespace FlightCompany.cs
         /// Represents the physical address of the company.
         /// </summary>
         public string Address { get; set; }
+        /// <see cref="Brand">See Brand...</see>
+        public List<Brand> Brands { get; set; }
         /// <summary>
         /// Constructor is protected, in order to force the Singleton Pattern.
         /// </summary>
