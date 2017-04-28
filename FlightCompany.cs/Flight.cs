@@ -17,6 +17,9 @@ namespace FlightCompany.cs
         public DateTime Departure { get; set; }
         public DateTime Arrival { get; set; }
         public FlightType FlightType { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public Plane plane { get; set; }
         public Route route { get; set; }
 
