@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCompany.cs
 {
-    class SeatClass
+    class SeatType
     {
         public string Name { get; set; }
     }

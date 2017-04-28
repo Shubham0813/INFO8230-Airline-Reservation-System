@@ -7,21 +7,51 @@ using System.Threading.Tasks;
 
 namespace FlightCompany.cs
 {
+    /// <summary>
+    /// Reservation allows the user to hold a seat for some time (i.e. reserve seats to buy their Tickets later), as a typical flight reservation.
+    /// </summary>
     class Reservation
     {
+        /// <summary>
+        /// When the Reservation was created.
+        /// </summary>
         public DateTime Created { get; set; }
+        /// <summary>
+        /// When the Reservation expires. After expiration, the seat will become available and might be sold to someone else.
+        /// </summary>
         public DateTime Expiration { get; set; }
+        /// <see cref="Flight">See Flight...</see>
+        public Flight Flight { get; set; }
+        /// <see cref="Customer">See Customer...</see>
+        public Customer Customer { get; set; }
+        /// <see cref="Passengers">See Passenger...</see>
+        public List<Passenger> Passengers { get; set; }
+        /// <see cref="Attendant">See Attendant...</see>
+        public Attendant Attendant { get; set; }
 
-        public void CreateReservation()
+        /// <summary>
+        /// Creates the Reservation to hold seats.
+        /// </summary>
+        /// <param name="flight">Which flight this reservation is related.</param>
+        /// <param name="customer">The customer who owns the reservation.</param>
+        /// <param name="passengers">The passengers who will have seats reserved for.</param>
+        public void CreateReservation(Flight flight, Customer customer, List<Passenger> passengers)
         {
             
         }
 
-        public void AddPassenger()
+        /// <summary>
+        /// Add a new passenger to the reservation.
+        /// </summary>
+        /// <param name="passenger"></param>
+        public void AddPassenger(Passenger passenger)
         {
             
         }
 
+        /// <summary>
+        /// Persist and save all objects created and updated by this reservation.
+        /// </summary>
         public void FinishRservation()
         {
             
