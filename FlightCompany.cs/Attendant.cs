@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace FlightCompany.cs
 {
+    /// <summary>
+    /// This class represents an Attendant which is a type of Employee but also has a land position
+    /// </summary>
     class Attendant : Employee
     {
+        /// <summary>
+        /// The land position for conveience
+        /// </summary>
         public string LandPosition { get; set; }
     }
 }
