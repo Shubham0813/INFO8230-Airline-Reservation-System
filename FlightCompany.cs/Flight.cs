@@ -20,10 +20,12 @@ namespace FlightCompany.cs
         /// Number of the flight.
         /// </summary>
         public string Number { get; set; }
+        
         /// <summary>
         /// Date and time of flight's departure from the origin.
         /// </summary>
         public DateTime Departure { get; set; }
+        
         /// <summary>
         /// Date and time of flight's arrival at the destination.
         /// </summary>
